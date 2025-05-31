@@ -1,0 +1,88 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffdf6;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #bc70e9;
+  color: #fffdf6;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #fffdf6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: center;
+}
+
+.productos-grid {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.producto {
+  background-color: #fdcdff;
+  border-left: 5px solid #bc70e9;
+  padding: 1rem;
+  border-radius: 8px;
+  flex: 1 1 250px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #bc70e9;
+  border-radius: 6px;
+}
+
+form button {
+  background-color: #bc70e9;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #05ee53;
+}
+
+footer {
+  background-color: #bc70e9;
+  color: #000;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.oculto {
+  display: none;
+  color: green;
+  font-weight: bold;
+}
